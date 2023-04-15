@@ -1,4 +1,4 @@
-nombreProblema = ""
+nombreProblema = "MiCompaElGymRat"
 grupo = "g0"
 path = nombreProblema + "/cases/" + grupo + "."
 

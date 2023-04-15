@@ -2,7 +2,7 @@ import random
 import os
 
 cases = 20
-for i in range(2, cases):
+for i in range(cases):
     N = random.randint(1, 5)
     caseString = "%d\n" % N
     for j in range(N):
@@ -12,7 +12,7 @@ for i in range(2, cases):
             arr += f"{random.randint(-100, 100)} "
         caseString += arr + "\n"
 
-    caseName = 'g0.{}.{}.in'.format(N, i)
+    caseName = 'g0.{}.in'.format(i)
 
     casePath = os.path.join('MiCompaElGymRat/cases', caseName)
     with open(casePath, 'w') as f:
