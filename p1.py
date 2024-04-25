@@ -1,4 +1,4 @@
-def icecream_parlor(m: int, arr: list) -> list:
+def tacos_de_canasta(m: int, arr: list) -> list:
     mpp = {}
     ans = [0, 0]
 
@@ -19,4 +19,4 @@ def main():
     for i in range(n):
         m = input()
         arr = list(map(int, input().split()))
-        print(icecream_parlor(m, arr))
+        print(tacos_de_canasta(m, arr))
