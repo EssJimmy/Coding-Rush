@@ -14,9 +14,9 @@ def tacos_de_canasta(m: int, arr: list) -> list:
 
 
 def main():
-    n = input()
+    t = input()
 
-    for i in range(n):
-        m = input()
+    for i in range(t):
+        m = int(input())
         arr = list(map(int, input().split()))
         print(tacos_de_canasta(m, arr))
